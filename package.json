@@ -1,0 +1,33 @@
+{
+  "name": "boop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./scripts/dev",
+    "build": "node ./scripts/build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.14.36",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "nodemonConfig": {
+    "verbose": false,
+    "watch": [
+      "."
+    ],
+    "ext": "js,jsx,json,css",
+    "ignore": [
+      "public/dist/**/*",
+      "node_modules/**/*"
+    ]
+  }
+}
