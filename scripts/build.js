@@ -1,6 +1,7 @@
 const esbuild = require("esbuild");
 const fs = require("fs");
 const path = require("path");
+const boopPlugin = require("./boopPlugin");
 
 const ROOT_DIR = path.join(__dirname, "..");
 
@@ -42,6 +43,7 @@ async function buildJs() {
     entryPoints: ["src/index.jsx"],
     bundle: true,
     outfile: "public/dist/index.js",
+    plugins: [boopPlugin],
   });
 }
 
