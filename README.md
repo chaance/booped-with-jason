@@ -1,10 +1,9 @@
-<div style="text-align: center">
-
-# Booped with Jason
-
-![Rainbox Corgi sticker](/public/corgi.png)
-
+<div align="center">
+  <h1>Booped with Jason</h1>
+  <img src="/public/corgi.png" alt="Rainbox Corgi sticker" />
 </div>
+
+---
 
 This is the code we'll be using on my episode of [Learn with Jason](https://www.learnwithjason.dev/) where we teach you how to build a simple [esbuild](https://esbuild.github.io/) plugin.
 
