@@ -1,7 +1,6 @@
 const esbuild = require("esbuild");
 const fs = require("fs");
 const path = require("path");
-const boopPlugin = require("./boopPlugin");
 
 const ROOT_DIR = path.join(__dirname, "..");
 
